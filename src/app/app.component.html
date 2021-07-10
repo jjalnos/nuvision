@@ -6,30 +6,36 @@
     </div>
   </header>
   <main>
-    <carousel>
+    <carousel [height]="800" [objectFit]="'cover'"
+              [cellWidth]="'100%'" [cellsToShow]="2" [autoplay]="true"
+              [autoplayInterval]="2000"
+              [pauseOnHover]="true"
+              [dots]="false"
+              [loop]="true"
+              transitionTimingFunction="linear"
+              [transitionDuration]="1000"
+              [arrowsOutside]="true"
+              objectFit="contain">
       <div class="carousel-cell">
-        <img src="../assets/karate-dojo3.jpg" title="Karate Dojo" alt="Karate Dojo">
+        <img src="../assets/karate-dojo3.jpg" title="Karate Dojo" alt="Karate Dojo" class="carousel-cell-img">
       </div>
       <div class="carousel-cell">
-        <img src="../assets/karate-dojo.jpg" title="Karate Dojo" alt="Karate Dojo">
+        <img src="../assets/karate-dojo.jpg" title="Karate Dojo" alt="Karate Dojo" class="carousel-cell-img">
       </div>
       <div class="carousel-cell">
-        <img src="../assets/karate-dojo2.jpg" title="Karate Dojo" alt="Karate Dojo">
+        <img src="../assets/karate-dojo2.jpg" title="Karate Dojo" alt="Karate Dojo" class="carousel-cell-img">
       </div>
       <div class="carousel-cell">
-        <img src="../assets/karate-dojo4.jpg" title="Karate Dojo" alt="Karate Dojo">
+        <img src="../assets/karate-dojo4.jpg" title="Karate Dojo" alt="Karate Dojo" class="carousel-cell-img">
       </div>
       <div class="carousel-cell">
-        <img src="../assets/peach-wave.jpg" title="Peach Wave" alt="Karate Dojo">
+        <img src="../assets/peach-wave.jpg" title="Peach Wave" alt="Karate Dojo" class="carousel-cell-img">
       </div>
       <div class="carousel-cell">
-        <img src="../assets/warehouse.jpg" title="Warehouse1" alt="Warehouse1">
+        <img src="../assets/warehouse.jpg" title="Warehouse1" alt="Warehouse1" class="carousel-cell-img">
       </div>
       <div class="carousel-cell">
-        <img src="../assets/warehouse2.jpg" title="Warehouse2" alt="Warehouse2">
-      </div>
-      <div class="carousel-cell">
-        <img src="../assets/warehouse3.jpg" title="Warehouse3" alt="Warehouse3">
+        <img src="../assets/warehouse2.jpg" title="Warehouse2" alt="Warehouse2" class="carousel-cell-img">
       </div>
     </carousel>
     <p>Nuvision Construction & Development Inc. believes in providing the best quality craftsmanship through, client communication and transparency, Stringent quality control, and putting our clients best interests first.
