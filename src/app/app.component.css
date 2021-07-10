@@ -33,8 +33,13 @@ footer {
   margin-left: 0;
 }
 
+@media only screen and (max-width: 800px) {
+  footer p {
+    font-size: 1.1rem;
+  }
+}
+
 footer p {
-  /*margin-top: -3%;*/
   margin-left: 15%;
   font-size: 1.1rem;
 }
@@ -60,10 +65,15 @@ p {
   padding-bottom: 1px;
 }
 
+@media only screen and (max-width: 800px) {
+  #signature {
+    margin-bottom: 0;
+    height: 10%;
+  }
+}
 
 #signature {
-  /*margin-top: -5%;*/
   margin-left: 10%;
   margin-bottom: 0;
-  height: 70%;
+  height: 60%;
 }
