@@ -4,7 +4,7 @@
 }
 
 .container {
-  width: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -31,14 +31,21 @@ header{
 footer {
   display: grid;
   place-items: center;
-  color: #fff;
+  color: black;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+footer p {
+  margin-top: -3%;
+  margin-left: 20%;
+  font-size: 1.1rem;
 }
 
 main {
   padding: 1rem;
   max-width: 80ch;
   margin: 0 auto;
-  outline: 2px dashed grey;
 }
 
 h1 {
@@ -56,5 +63,8 @@ p {
 }
 
 #signature {
-  margin-right: 75%;
+  margin-top: -5%;
+  margin-left: 20%;
+  margin-bottom: 0;
+  height: 70%;
 }
