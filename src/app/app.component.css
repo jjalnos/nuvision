@@ -1,3 +1,60 @@
-#content {
-  padding: 0 10% 0 10%;
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+body {
+  font-family: "Baloo 2", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer {
+  margin-top: auto;
+  margin-left: 80%;
+}
+
+header{
+  display: grid;
+  place-items: center;
+  background-color: rgb(45, 57, 100);
+  color: #fff;
+}
+
+/*header,*/
+footer {
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+
+main {
+  padding: 1rem;
+  max-width: 80ch;
+  margin: 0 auto;
+  outline: 2px dashed grey;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+#title {
+  color: rgb(114, 230, 28);
+  margin-bottom: 0;
+}
+
+#signature {
+  margin-right: 75%;
 }

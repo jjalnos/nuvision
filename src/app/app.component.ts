@@ -8,12 +8,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Sean Drane';
-
-  slides = [
-    {'image': 'https://picsum.photos/seed/picsum/1200/300'},
-    {'image': 'https://picsum.photos/seed/picsum/1200/300'},
-    {'image': 'https://picsum.photos/seed/picsum/1200/300'},
-    {'image': 'https://picsum.photos/seed/picsum/1200/300'},
-    {'image': 'https://picsum.photos/seed/picsum/1200/300'}
-  ];
 }
